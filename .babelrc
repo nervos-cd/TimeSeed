@@ -1,0 +1,8 @@
+{
+  "presets": ["module:metro-react-native-babel-preset","babel-preset-expo", "babel-preset-react-native-web3"],
+  "env": {
+    "development": {
+      "plugins": ["transform-react-jsx-source"]
+    }
+  }
+}
